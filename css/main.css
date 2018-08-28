@@ -5,9 +5,7 @@
 :root {
 	--newspaper: #f1f1f1;
 	--crease: #564e46;
-	--normalgrey: #5D5D5D;
-	--lightGrey: #6F6F6F;
-	--lightestGrey: #ADADAD;
+	--nicered: #FF1744;
 }
 html {
 	background-color: var(--newspaper);
@@ -66,7 +64,7 @@ body {
 @media screen and (max-width:629px) {
 	.container {
 		position: absolute;
-		width: 100vh;
+		width: 100vw;
 		margin: 0;
 		box-sizing: border-box;
 		border: none;
@@ -94,6 +92,41 @@ body {
 		border-top: 5px solid var(--crease);
 		border-bottom: 5px solid var(--crease);
 		padding: 5px;
+	}
+	#tagline {
+		font-size: 1.3rem;
+		letter-spacing: 2px;
+		font-weight: 600;
+		margin-bottom: 15%;
+		font-family: 'Montserrat';
+		color: var(--nicered);
+	}
+	#main_line {
+		margin-bottom: 10%;
+		font-size: 3rem;
+		font-weight: 700;
+		line-height: 75px;
+	}
+	
+	#shortcuts {
+		height: 60px;
+		vertical-align: bottom;
+		margin-bottom: 20%;
+	}
+	#shortcuts a {
+		vertical-align: bottom;
+	}
+	.shortcut {
+		vertical-align: bottom;
+		display: inline-block;
+		font-size: 2.5rem;
+		color: var(--nicered);
+		margin-right: 5vw;
+	}
+
+	#status {
+		font-size: 1em;
+		font-weight: 700;
 	}
 }
 
