@@ -1,0 +1,137 @@
+:root {
+	--darkestGrey: #3C3C3C;
+	--darkGrey: #555555;
+	--normalgrey: #5D5D5D;
+	--lightGrey: #6F6F6F;
+	--lightestGrey: #ADADAD;
+}
+html {
+	background-color: #f1f1f1;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+body {
+	font-family: 'Courier New', monospace;
+	min-height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	height: 100vh;
+	width: 50%;
+	margin: 0;
+	box-sizing: border-box;
+	border: none;
+	display: block;
+}
+#picture {
+	position: relative;
+	text-align: center;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 10px;
+	border-right: 5px solid #564e46;
+	border-radius: 1%;
+}
+.helper {
+	height: 100%;
+	vertical-align: middle;
+	display: inline-block;
+}
+#image {
+	background-color: white;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 210px;
+	border-radius: 50%;
+}
+#content {
+	float: right;
+	border-left: 5px solid #564e46;
+	border-radius: 1%;
+	padding-left: 50px;
+	padding-top: 100px;
+}
+
+#tagline {
+	font-size: 1.3rem;
+	letter-spacing: 2px;
+	font-weight: 600;
+	margin-bottom: 15%;
+	font-family: 'Montserrat';
+	color: #FF1744;
+}
+#main_line {
+	margin-bottom: 10%;
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 75px;
+}
+@-webkit-keyframes blink {
+    from {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    51% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    from {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    51% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+#cursor {
+    -webkit-animation: blink 1s linear infinite;
+    animation: blink 1s linear infinite;
+}
+#shortcuts {
+	height: 60px;
+	vertical-align: bottom;
+	margin-bottom: 20%;
+}
+#shortcuts a {
+	vertical-align: bottom;
+}
+.shortcut {
+	vertical-align: bottom;
+	display: inline-block;
+	font-size: 2.5rem;
+	color: #FF1744;
+	margin-right: 20px;
+}
+
+#status {
+	font-size: 1em;
+	font-weight: 700;
+}
