@@ -61,7 +61,7 @@ body {
     animation: blink 1s linear infinite;
 }
 
-@media screen and (max-width:629px) {
+@media screen and (max-width:669px) {
 	.container {
 		position: absolute;
 		width: 100vw;
@@ -131,7 +131,7 @@ body {
 	}
 }
 
-@media screen and (min-width: 630px) {
+@media screen and (min-width: 670px) {
 	.container {
 		height: 100vh;
 		width: 50%;
