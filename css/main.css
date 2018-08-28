@@ -143,7 +143,7 @@ body {
 		text-align: center;
 		float: left;
 		padding: 10px;
-		border-right: 5px solid #564e46;
+		border-right: 5px solid var(--crease);
 		border-radius: 1%;
 	}
 	.helper {
@@ -156,12 +156,13 @@ body {
 		padding: 20px 50px;
 		display: inline-block;
 		vertical-align: middle;
-		width: 210px;
+		max-height: 90%;
+		max-width: 70%;
 		border-radius: 50%;
 	}
 	#content {
 		float: right;
-		border-left: 5px solid #564e46;
+		border-left: 5px solid var(--crease);
 		border-radius: 1%;
 		padding-left: 50px;
 		padding-top: 100px;
@@ -173,7 +174,7 @@ body {
 		font-weight: 600;
 		margin-bottom: 15%;
 		font-family: 'Montserrat';
-		color: #FF1744;
+		color: var(--nicered);
 	}
 	#main_line {
 		margin-bottom: 10%;
@@ -194,7 +195,7 @@ body {
 		vertical-align: bottom;
 		display: inline-block;
 		font-size: 2.5rem;
-		color: #FF1744;
+		color: var(--nicered);
 		margin-right: 20px;
 	}
 
