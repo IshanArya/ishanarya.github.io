@@ -1,4 +1,4 @@
-# ishanarya.github.io
+# <https://ishanarya.github.io/>
 Personal website
 
 ## Color Scheme
