@@ -1,11 +1,9 @@
-# <https://ishanarya.github.io/>
+# <https://ishanarya.com/>
 Personal website
 
 ## Color Scheme
 ```
-Darkest Grey: #3C3C3C
-Dark Grey: #555555
-Grey: #5D5D5D
-Light Grey: #6F6F6F
-Lightest Grey: #ADADAD
+Newspaper: #f1f1f1;
+Crease: #564e46;
+Nice Red: #FF1744
 ```
