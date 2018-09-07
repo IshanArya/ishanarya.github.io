@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:600);
 @viewport {
 	width: device-width ;
 	zoom: 1.0 ;
@@ -5,7 +6,9 @@
 :root {
 	--newspaper: #f1f1f1;
 	--crease: #564e46;
-	--nicered: #FF1744;
+	--nice_red: #FF1744;
+
+	--default_fonts: 'Courier New', monospace;
 }
 html {
 	background-color: var(--newspaper);
@@ -15,7 +18,7 @@ html {
 	height: 100%;
 }
 body {
-	font-family: 'Courier New', monospace;
+	font-family: var(--default_fonts);
 	min-height: 100%;
 	width: 100%;
 	padding: 0;
@@ -100,7 +103,7 @@ body {
 		font-weight: 600;
 		margin-bottom: 5%;
 		font-family: 'Montserrat';
-		color: var(--nicered);
+		color: var(--nice_red);
 	}
 	#main_line {
 		margin-bottom: 3%;
@@ -121,7 +124,7 @@ body {
 		vertical-align: bottom;
 		display: inline-block;
 		font-size: 1.5rem;
-		color: var(--nicered);
+		color: var(--nice_red);
 		margin-right: 2vw;
 	}
 
@@ -174,7 +177,7 @@ body {
 		font-weight: 600;
 		margin-bottom: 12.7vh;
 		font-family: 'Montserrat';
-		color: var(--nicered);
+		color: var(--nice_red);
 	}
 	#main_line {
 		margin-bottom: 9vh;
@@ -194,7 +197,7 @@ body {
 		vertical-align: bottom;
 		display: inline-block;
 		font-size: 5vh;
-		color: var(--nicered);
+		color: var(--nice_red);
 		margin-right: 3vw;
 	}
 
