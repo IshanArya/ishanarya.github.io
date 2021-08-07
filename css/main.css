@@ -204,6 +204,8 @@ body {
 	#status {
 		font-size: 2vh;
 		font-weight: 700;
+		position: absolute;
+		bottom: 1vh;
 	}
 }
 
