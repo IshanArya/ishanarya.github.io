@@ -168,6 +168,7 @@ body {
 		border-left: 5px solid var(--crease);
 		border-radius: 1%;
 		padding-left: 4vw;
+		padding-right: 2vw;
 		padding-top: 12vh;
 	}
 
